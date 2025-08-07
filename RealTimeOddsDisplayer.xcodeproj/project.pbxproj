@@ -97,9 +97,13 @@
 		3A48EC782E443E3F00253BE3 /* RealTimeOddsDisplayer */ = {
 			isa = PBXGroup;
 			children = (
+				3A48ECAC2E4447BA00253BE3 /* LocalCache */,
+				3A48ECAB2E4447AB00253BE3 /* NetworkModule */,
+				3A48ECAA2E4447A100253BE3 /* DataLayer */,
+				3A48ECA92E44479700253BE3 /* DomainLayer */,
+				3A48ECAF2E4447D100253BE3 /* PresenterLayer */,
 				3A48EC792E443E3F00253BE3 /* AppDelegate.swift */,
 				3A48EC7B2E443E3F00253BE3 /* SceneDelegate.swift */,
-				3A48EC7D2E443E3F00253BE3 /* ViewController.swift */,
 				3A48EC822E443E4100253BE3 /* Assets.xcassets */,
 				3A48EC842E443E4100253BE3 /* LaunchScreen.storyboard */,
 				3A48EC872E443E4100253BE3 /* Info.plist */,
@@ -122,6 +126,58 @@
 				3A48EC9C2E443E4100253BE3 /* RealTimeOddsDisplayerUITestsLaunchTests.swift */,
 			);
 			path = RealTimeOddsDisplayerUITests;
+			sourceTree = "<group>";
+		};
+		3A48ECA92E44479700253BE3 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A48ECB12E44480800253BE3 /* DomainModels */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		3A48ECAA2E4447A100253BE3 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A48ECB02E4447FD00253BE3 /* DTOs */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		3A48ECAB2E4447AB00253BE3 /* NetworkModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkModule;
+			sourceTree = "<group>";
+		};
+		3A48ECAC2E4447BA00253BE3 /* LocalCache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalCache;
+			sourceTree = "<group>";
+		};
+		3A48ECAF2E4447D100253BE3 /* PresenterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A48EC7D2E443E3F00253BE3 /* ViewController.swift */,
+			);
+			path = PresenterLayer;
+			sourceTree = "<group>";
+		};
+		3A48ECB02E4447FD00253BE3 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		3A48ECB12E44480800253BE3 /* DomainModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DomainModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
