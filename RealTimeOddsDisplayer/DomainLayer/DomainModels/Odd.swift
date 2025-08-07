@@ -12,7 +12,7 @@ enum OddsSource {
     case live
 }
 
-struct Odd {
+struct Odd: Equatable {
     let matchID: String
     let teamAOdds: Float
     let teamBOdds: Float

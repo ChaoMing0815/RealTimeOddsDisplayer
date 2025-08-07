@@ -18,6 +18,8 @@
 		3A48ECB32E444BFE00253BE3 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48ECB22E444BFE00253BE3 /* Match.swift */; };
 		3A48ECB52E444C6400253BE3 /* Odd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48ECB42E444C6400253BE3 /* Odd.swift */; };
 		3A48ECB72E44511F00253BE3 /* MatchWithOdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48ECB62E44511F00253BE3 /* MatchWithOdds.swift */; };
+		3A48ECB92E44522700253BE3 /* MatchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48ECB82E44522700253BE3 /* MatchDTO.swift */; };
+		3A48ECBB2E4454ED00253BE3 /* OddDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48ECBA2E4454ED00253BE3 /* OddDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3A48ECB22E444BFE00253BE3 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		3A48ECB42E444C6400253BE3 /* Odd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Odd.swift; sourceTree = "<group>"; };
 		3A48ECB62E44511F00253BE3 /* MatchWithOdds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchWithOdds.swift; sourceTree = "<group>"; };
+		3A48ECB82E44522700253BE3 /* MatchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDTO.swift; sourceTree = "<group>"; };
+		3A48ECBA2E4454ED00253BE3 /* OddDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 		3A48ECB02E4447FD00253BE3 /* DTOs */ = {
 			isa = PBXGroup;
 			children = (
+				3A48ECB82E44522700253BE3 /* MatchDTO.swift */,
+				3A48ECBA2E4454ED00253BE3 /* OddDTO.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -321,8 +327,10 @@
 			files = (
 				3A48EC7E2E443E3F00253BE3 /* ViewController.swift in Sources */,
 				3A48ECB32E444BFE00253BE3 /* Match.swift in Sources */,
+				3A48ECB92E44522700253BE3 /* MatchDTO.swift in Sources */,
 				3A48EC7A2E443E3F00253BE3 /* AppDelegate.swift in Sources */,
 				3A48ECB52E444C6400253BE3 /* Odd.swift in Sources */,
+				3A48ECBB2E4454ED00253BE3 /* OddDTO.swift in Sources */,
 				3A48EC7C2E443E3F00253BE3 /* SceneDelegate.swift in Sources */,
 				3A48ECB72E44511F00253BE3 /* MatchWithOdds.swift in Sources */,
 			);

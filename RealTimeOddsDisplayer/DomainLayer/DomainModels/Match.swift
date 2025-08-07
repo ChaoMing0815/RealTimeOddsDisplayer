@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Match {
+struct Match: Equatable {
     let matchID: String
     let teamA: String
     let teamB: String
